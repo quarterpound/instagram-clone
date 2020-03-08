@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './components/NavBar.js';
+import Navbar from './components/NavBar/NavBar';
+import Body from './components/MainBody/Body';
 
 class App extends React.Component {
 
@@ -7,6 +8,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<Navbar	/>
+				<Body />
 			</div>
 		)
 	}

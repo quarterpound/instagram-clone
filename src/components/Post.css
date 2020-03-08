@@ -1,0 +1,50 @@
+.postOuter {
+    display: block;
+    border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+
+.postUserInfo {
+    display: grid;
+    padding: 10px 15px;
+    grid-template-columns: 30px 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.postBar {
+    margin: 5px 15px;
+}
+
+.postBarInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.postCommands {
+    padding: 0;
+    margin: 0;
+}
+
+.postCommands > li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.postLikes {
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+
+.postUsername {
+    font-weight: bolder;
+}
+
+.postLikesInner {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
