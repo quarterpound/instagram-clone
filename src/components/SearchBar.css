@@ -1,0 +1,15 @@
+.searchBarUnFocused {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: rgb(219,219,219);
+    background-color: rgb(243, 243, 243);
+    color: rgb(151, 151, 151);
+    padding: 5px 40px;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.searchBarUnFocused:hover {
+    cursor: text;
+}

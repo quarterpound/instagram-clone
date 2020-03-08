@@ -1,0 +1,27 @@
+.outerNav {
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: rgb(219,219,219);
+}
+
+
+.innerNav {
+    display: grid;
+    width: 48%;
+    height: 100%;
+    margin: auto;
+    grid-template-columns: auto 1fr auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.navMenu {
+    list-style-type: none;
+}
+
+.navMenu > li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18pt;
+}
