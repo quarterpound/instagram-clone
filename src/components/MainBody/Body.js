@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from '../Post';
+import LeftSide from '../LeftSide/LeftSide';
 import './Body.css';
 
 class Body extends React.Component {
@@ -13,10 +14,9 @@ class Body extends React.Component {
                         <Post />
                         <Post />
                         <Post />
-
                     </div>
                     <div className="leftSide">
-                        Hello
+                        <LeftSide />
                     </div>
                 </div>
             </div>
