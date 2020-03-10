@@ -5,7 +5,7 @@ import "./ProfileIcon.css";
 class ProfileIcon extends React.Component {
     render() {
         return (
-            <div className="profileIcon" style={{backgroundImage: `url(${sample})`, width: (this.props.width) ? this.props.width : "25px", height: (this.props.width) ? this.props.width : "25px"}}>
+            <div className="profileIcon" style={{backgroundImage: `url(${(!this.props.src) ? sample : this.props.src})`, width: (this.props.width) ? this.props.width : "25px", height: (this.props.width) ? this.props.width : "25px"}}>
             </div>
         )
     }

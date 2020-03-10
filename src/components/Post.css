@@ -43,8 +43,6 @@
 }
 
 .postLikesInner {
-    display: grid;
-    grid-template-columns: 30px 1fr;
     grid-gap: 5px;
     align-items: center;
 }

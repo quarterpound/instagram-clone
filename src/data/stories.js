@@ -1,0 +1,64 @@
+const stories = [
+    {
+    username: "ntabbernor0",
+    hrs: 1,
+  }, {
+    username: "gmarchent1",
+    hrs: 1,
+  }, {
+    username: "gpackington2",
+    hrs: 1,
+  }, {
+    username: "bnewson3",
+    hrs: 3,
+  }, {
+    username: "martist4",
+    hrs: 6,
+  }, {
+    username: "avannar5",
+    hrs: 7,
+  }, {
+    username: "oquail6",
+    hrs: 7,
+  }, {
+    username: "amateu7",
+    hrs: 7,
+  }, {
+    username: "tharborow8",
+    hrs: 7,
+  }, {
+    username: "akytley9",
+    hrs: 8,
+  }, {
+    username: "rapedailea",
+    hrs: 10,
+  }, {
+    username: "nberfootb",
+    hrs: 10,
+  }, {
+    username: "lecclesc",
+    hrs: 12,
+  }, {
+    username: "obrooksd",
+    hrs: 18,
+  }, {
+    username: "abowcocke",
+    hrs: 20,
+  }, {
+    username: "agianolof",
+    hrs: 20,
+  }, {
+    username: "cosgarg",
+    hrs: 21,
+  }, {
+    username: "acrocettih",
+    hrs: 22,
+  }, {
+    username: "esommerscalesi",
+    hrs: 22,
+  }, {
+    username: "icatmullj",
+    hrs: 23,
+  }]
+
+  export default stories;

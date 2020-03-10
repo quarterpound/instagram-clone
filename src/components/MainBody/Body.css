@@ -10,14 +10,14 @@
 }
 
 .rightSide {
-    width: 60%;
-}
-
-
-.leftSide {
     width: 35%;
     height: 100vh;
     position: -webkit-sticky;
     position: sticky;
     top: 100px;
+}
+
+
+.leftSide {
+    width: 60%;
 }

@@ -8,12 +8,12 @@ class Story extends React.Component {
             <div className="storyOuter">
                 <div className="storyGradient">
                     <div className="storyGradientInner">
-                        <ProfileIcon width="35px" />
+                        <ProfileIcon width="35px" src={`https://randomuser.me/api/portraits/men/${this.props.index + 10}.jpg`} />
                     </div>
                 </div>
                 <div>
-                    <span style={{fontWeight: 'bolder', fontSize: '10pt'}}>gasimzadeali</span><br/>
-                    <span style={{color: 'gray', fontSize: '10pt'}}>11 hours ago</span>
+                    <span style={{fontWeight: 'bolder', fontSize: '10pt'}}>{this.props.username}</span><br/>
+                    <span style={{color: 'gray', fontSize: '10pt'}}>{this.props.hrs} hours ago</span>
                 </div>
             </div>
         )
