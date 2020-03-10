@@ -13,13 +13,13 @@ class Navbar extends React.Component {
         return (
             <div className="outerNav">
                 <div className="innerNav">
-                    <div style={{justifySelf: "start"}}> <img src={instaLogo} width={30}/> </div>
+                    <div style={{justifySelf: "start"}}> <img src={instaLogo} width={30} alt="Instagram Logo"/> </div>
                     <div><SearchBar /></div>
                     <div style={{justifySelf: "end"}}>
                         <ul className="navMenu">
-                            <li> <SVGIcon icon={faHome} /> </li>
-                            <li> <SVGIcon icon={faExplore} /> </li>
-                            <li> <SVGIcon icon={faHeart} /> </li>
+                            <li> <SVGIcon icon={faHome} alt="Home" /> </li>
+                            <li> <SVGIcon icon={faExplore} alt="Explore" /> </li>
+                            <li> <SVGIcon icon={faHeart} alt="Notifications" /> </li>
                             <li> <ProfileIcon /> </li>
                         </ul>
                     </div>

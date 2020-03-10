@@ -1,5 +1,4 @@
 import React from 'react';
-import Story from './Story';
 import './Stories.css';
 
 class Stories extends React.Component {
@@ -7,19 +6,12 @@ class Stories extends React.Component {
         return (
             <div className="storiesOuter">
                 <div className="storiesBar">
-                    Stories
+                    {this.props.title}
                 </div>
-                <div className="stories">
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
-                    <Story />
+                <div className="stories" style={this.props.style}>
+                    {
+                        this.props.children
+                    }
                 </div>
             </div>
         )

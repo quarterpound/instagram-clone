@@ -5,7 +5,19 @@
 }
 
 .mainBodyInner {
-    display: grid;
-    grid-template-columns: 2fr 1fr; 
-    grid-gap: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightSide {
+    width: 60%;
+}
+
+
+.leftSide {
+    width: 35%;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
 }

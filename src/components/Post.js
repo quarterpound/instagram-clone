@@ -22,7 +22,7 @@ class Post extends React.Component {
                     <span style={{justifySelf: 'end'}}> <SVGIcon icon={settings} /> </span>
                 </div>
                 <div className="postImage">
-                    <img src={SampleImage} style={{width: "100%"}} /> 
+                    <img src={SampleImage} style={{width: "100%"}} alt="2 ladies" /> 
                 </div>
                 <div className="postBar">
                     <div className="postBarInner">

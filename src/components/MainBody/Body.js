@@ -8,7 +8,7 @@ class Body extends React.Component {
         return (
             <div className="mainBodyOuter">
                 <div className="mainBodyInner">
-                    <div>
+                    <div className="rightSide">
                         <Post />
                         <Post />
                         <Post />

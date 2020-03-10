@@ -1,5 +1,6 @@
 .storiesOuter {
     border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
 }
 
 .storiesBar {
@@ -11,7 +12,7 @@
 
 .stories {
     display: block;
-    padding: 0 15px;
-    height: 250px;
+    padding: 0 20px;
+    max-height: 250px;
     overflow-y: scroll
 }
