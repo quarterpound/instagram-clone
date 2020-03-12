@@ -1,15 +1,35 @@
 .searchBarUnFocused {
-    width: 100%;
+    width: 200px;
     border: 1px solid;
     border-radius: 2px;
     border-color: rgb(219,219,219);
     background-color: rgb(243, 243, 243);
     color: rgb(151, 151, 151);
-    padding: 5px 40px;
     text-align: center;
     font-size: 11pt;
 }
 
 .searchBarUnFocused:hover {
     cursor: text;
+}
+
+.searchbar {
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 6px 1px;
+}
+
+.searchbar::placeholder {
+    color: rgb(167, 167, 167);
+    text-align: center;
+}
+
+.searchbar::-webkit-input-placeholder {
+    color: rgb(167, 167, 167);
+}
+
+.searchbar:focus {
+    background-color: rgb(243, 243, 243);
+    outline: 0
 }

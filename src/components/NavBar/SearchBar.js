@@ -1,14 +1,31 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faSearch} from '@fortawesome/free-solid-svg-icons';
 import './SearchBar.css';
 
 class SearchBar extends React.Component {
+
+    state = {
+        isFocused: false,
+    }
     
+    switchToFocused() {
+        this.setState({
+            isFocused: true,
+        })
+    }
+
+    switchToUnFocused() {
+        this.setState({
+            isFocused: false,
+        })
+    }
+
+
     render () {
         return (
             <div className="searchBarUnFocused">
-                <FontAwesomeIcon icon={faSearch} style={{fontSize: '10pt'}} /> Search
+                <form>
+                    <input type="text" placeholder="Search" className="searchbar" />
+                </form>
             </div>
         )
     }
